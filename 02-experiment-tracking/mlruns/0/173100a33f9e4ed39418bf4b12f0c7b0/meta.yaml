@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/STUDSENT/Desktop/machine-learning-Ops/02-experiment-tracking/mlruns/0/173100a33f9e4ed39418bf4b12f0c7b0/artifacts
+end_time: 1746740731705
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 173100a33f9e4ed39418bf4b12f0c7b0
+run_name: monumental-foal-484
+run_uuid: 173100a33f9e4ed39418bf4b12f0c7b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746740226591
+status: 3
+tags: []
+user_id: STUDSENT
