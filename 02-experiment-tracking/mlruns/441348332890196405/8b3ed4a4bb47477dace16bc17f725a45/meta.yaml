@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/STUDSENT/Desktop/machine-learning-Ops/02-experiment-tracking/mlruns/441348332890196405/8b3ed4a4bb47477dace16bc17f725a45/artifacts
+end_time: 1746815140988
+entry_point_name: ''
+experiment_id: '441348332890196405'
+lifecycle_stage: active
+run_id: 8b3ed4a4bb47477dace16bc17f725a45
+run_name: magnificent-gnu-484
+run_uuid: 8b3ed4a4bb47477dace16bc17f725a45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746815131054
+status: 3
+tags: []
+user_id: STUDSENT
