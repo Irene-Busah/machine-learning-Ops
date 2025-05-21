@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/STUDSENT/Desktop/machine-learning-Ops/02-experiment-tracking/mlruns/946521671300971722/58680dfc5a534d9b84b78e73b5b8772d/artifacts
+deleted_time: 1747486428719
+end_time: 1747484184442
+entry_point_name: ''
+experiment_id: '946521671300971722'
+lifecycle_stage: deleted
+run_id: 58680dfc5a534d9b84b78e73b5b8772d
+run_name: rebellious-stag-176
+run_uuid: 58680dfc5a534d9b84b78e73b5b8772d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747484184294
+status: 4
+tags: []
+user_id: STUDSENT

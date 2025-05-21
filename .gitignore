@@ -172,3 +172,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# mlflow runs
+/machine-learning-Ops/02-experiment-tracking/mlruns/

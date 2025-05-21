@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/STUDSENT/Desktop/machine-learning-Ops/02-experiment-tracking/mlruns/946521671300971722/06df032b05d646bbbc0dc40df9076ac8/artifacts
+deleted_time: 1747486428700
+end_time: 1747484322739
+entry_point_name: ''
+experiment_id: '946521671300971722'
+lifecycle_stage: deleted
+run_id: 06df032b05d646bbbc0dc40df9076ac8
+run_name: mysterious-trout-858
+run_uuid: 06df032b05d646bbbc0dc40df9076ac8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747484322579
+status: 4
+tags: []
+user_id: STUDSENT

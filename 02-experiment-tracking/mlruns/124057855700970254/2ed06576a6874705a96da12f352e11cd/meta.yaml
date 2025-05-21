@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/STUDSENT/Desktop/machine-learning-Ops/02-experiment-tracking/mlruns/124057855700970254/2ed06576a6874705a96da12f352e11cd/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '124057855700970254'
+lifecycle_stage: active
+run_id: 2ed06576a6874705a96da12f352e11cd
+run_name: enthused-rook-118
+run_uuid: 2ed06576a6874705a96da12f352e11cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747569080039
+status: 1
+tags: []
+user_id: STUDSENT

@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/STUDSENT/Desktop/machine-learning-Ops/02-experiment-tracking/mlruns/946521671300971722/2d81b7511cda4fb3b1b14fd7c0176b90/artifacts
+deleted_time: 1747486428707
+end_time: 1747484142043
+entry_point_name: ''
+experiment_id: '946521671300971722'
+lifecycle_stage: deleted
+run_id: 2d81b7511cda4fb3b1b14fd7c0176b90
+run_name: lyrical-shad-960
+run_uuid: 2d81b7511cda4fb3b1b14fd7c0176b90
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747484141872
+status: 4
+tags: []
+user_id: STUDSENT
