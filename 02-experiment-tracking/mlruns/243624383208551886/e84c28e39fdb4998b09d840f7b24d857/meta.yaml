@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/STUDSENT/Desktop/machine-learning-Ops/02-experiment-tracking/mlruns/243624383208551886/e84c28e39fdb4998b09d840f7b24d857/artifacts
+end_time: 1748040488086
+entry_point_name: ''
+experiment_id: '243624383208551886'
+lifecycle_stage: active
+run_id: e84c28e39fdb4998b09d840f7b24d857
+run_name: exultant-donkey-368
+run_uuid: e84c28e39fdb4998b09d840f7b24d857
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748040081248
+status: 3
+tags: []
+user_id: STUDSENT

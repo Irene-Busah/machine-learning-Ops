@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/STUDSENT/Desktop/machine-learning-Ops/02-experiment-tracking/mlruns/800818189677310631/7decfc3e72b4466791ec571ffd6877ea/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '800818189677310631'
+lifecycle_stage: active
+run_id: 7decfc3e72b4466791ec571ffd6877ea
+run_name: brawny-fox-325
+run_uuid: 7decfc3e72b4466791ec571ffd6877ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748038577699
+status: 1
+tags: []
+user_id: STUDSENT

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/STUDSENT/Desktop/machine-learning-Ops/02-experiment-tracking/mlruns/243624383208551886/1bb12bc24c7e49cd8b7e6196bce7373b/artifacts
+end_time: 1748038052441
+entry_point_name: ''
+experiment_id: '243624383208551886'
+lifecycle_stage: active
+run_id: 1bb12bc24c7e49cd8b7e6196bce7373b
+run_name: linear regression model
+run_uuid: 1bb12bc24c7e49cd8b7e6196bce7373b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748038021113
+status: 3
+tags: []
+user_id: STUDSENT

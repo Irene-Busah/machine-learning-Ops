@@ -1,0 +1,6 @@
+artifact_location: file:///c:/Users/STUDSENT/Desktop/machine-learning-Ops/02-experiment-tracking/mlruns/243624383208551886
+creation_time: 1748037994907
+experiment_id: '243624383208551886'
+last_update_time: 1748037994907
+lifecycle_stage: active
+name: nyc-taxi-experiment
