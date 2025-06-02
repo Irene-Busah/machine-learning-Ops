@@ -174,4 +174,7 @@ cython_debug/
 .pypirc
 
 # mlflow runs
-/machine-learning-Ops/02-experiment-tracking/mlruns/
+02-experiment-tracking/mlruns/
+02-experiment-tracking/mlartifacts/
+02-experiment-tracking/homework/mlartifacts/
+02-experiment-tracking/homework/mlruns/
