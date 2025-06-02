@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/836193598087090150/2aee14b841c440a3908af3cc0276bbaa/artifacts
+end_time: 1748886818760
+entry_point_name: ''
+experiment_id: '836193598087090150'
+lifecycle_stage: active
+run_id: 2aee14b841c440a3908af3cc0276bbaa
+run_name: salty-stork-818
+run_uuid: 2aee14b841c440a3908af3cc0276bbaa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748886807676
+status: 3
+tags: []
+user_id: STUDSENT
