@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/5bd879aab0ac43d5907a09f44071dd6a/artifacts
+end_time: 1749312138297
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5bd879aab0ac43d5907a09f44071dd6a
+run_name: LinearRegressionModel
+run_uuid: 5bd879aab0ac43d5907a09f44071dd6a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749312121175
+status: 4
+tags: []
+user_id: STUDSENT

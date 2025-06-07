@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/STUDSENT/Desktop/machine-learning-Ops/03-orchestration/homework/mlruns/328889452468012401/7cca7324b1c34950b4078289b118c28d/artifacts
+end_time: 1749314809610
+entry_point_name: ''
+experiment_id: '328889452468012401'
+lifecycle_stage: active
+run_id: 7cca7324b1c34950b4078289b118c28d
+run_name: LinearRegressionModel
+run_uuid: 7cca7324b1c34950b4078289b118c28d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749314797029
+status: 3
+tags: []
+user_id: STUDSENT
