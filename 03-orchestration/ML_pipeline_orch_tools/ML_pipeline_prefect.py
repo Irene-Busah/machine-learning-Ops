@@ -12,11 +12,17 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.metrics import root_mean_squared_error
 from prefect import task, flow
 import mlflow
+import sys
+
+
+import os
+
+os.makedirs("models", exist_ok=True)
 
 
 # mlflow.set_tracking_uri("sqlite:///mlflow.db")
 mlflow.set_tracking_uri("http://localhost:5000")
-mlflow.set_experiment("nyc-taxi-experiment")
+mlflow.set_experiment("nyc-taxi-model")
 
 
 @task(name="load-data", description="loads data", retries=3, retry_delay_seconds=5)
@@ -57,10 +63,22 @@ def create_X(df, dv=None):
 # defining a function to train the model and log the results
 @task(log_prints=True)
 def train_and_log_model(X_train, y_train, X_val, y_val, dv):
+
+    # 🔧 Monkey-patch MLflow to avoid printing the 🏃 emoji
+    original_log_url = mlflow.tracking._tracking_service.client.TrackingServiceClient._log_url
+
+    def safe_log_url(self, run_id):
+        run_info = self.get_run(run_id).info
+        run_url = f"{mlflow.get_tracking_uri().rstrip('/')}/#/experiments/{run_info.experiment_id}/runs/{run_info.run_id}"
+        sys.stdout.write(f"View run {run_info.run_name} at: {run_url}\n")
+
+    mlflow.tracking._tracking_service.client.TrackingServiceClient._log_url = safe_log_url
+
+    # Now the task logic
     mlflow.xgboost.autolog(disable=True)
 
-    with mlflow.start_run():
-        
+    with mlflow.start_run(run_name="nyc-taxi-duration-prediction"):
+
         train = xgb.DMatrix(X_train, label=y_train)
         valid = xgb.DMatrix(X_val, label=y_val)
 
@@ -88,11 +106,15 @@ def train_and_log_model(X_train, y_train, X_val, y_val, dv):
         rmse = root_mean_squared_error(y_val, y_pred)
         mlflow.log_metric("rmse", rmse)
 
+        import os, pickle
+        os.makedirs("models", exist_ok=True)
+
         with open("models/preprocessor.b", "wb") as f_out:
             pickle.dump(dv, f_out)
-        mlflow.log_artifact("models/preprocessor.b", artifact_path="preprocessor")
 
+        mlflow.log_artifact("models/preprocessor.b", artifact_path="preprocessor")
         mlflow.xgboost.log_model(booster, artifact_path="models_mlflow")
+
 
 
 @flow(name="nyc-taxi-duration-prediction", description="Flow to predict NYC taxi trip duration")
