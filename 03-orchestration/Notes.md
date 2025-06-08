@@ -25,7 +25,7 @@ Machine learning Pipelines are a series of steps that automate the process of tr
    prefect worker start --pool "taxi_duration_model_deploy"
    ```
 
-4. Deploy your flow in the folder `03-orchestration`
+4. Deploy your flow in the folder `ML_pipeline_orch_tools`
    ```bash
    prefect deploy ML_pipeline_prefect.py:main -n duration_prediction_model -p taxi_duration_model_deploy
    ```

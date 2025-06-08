@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/STUDSENT/Desktop/machine-learning-Ops/Projects/energy_data_etl_pipeline/mlruns/334040515149543921/ea96a01e9572490e9769bdf6b17548e0/artifacts
+end_time: 1749406000411
+entry_point_name: ''
+experiment_id: '334040515149543921'
+lifecycle_stage: active
+run_id: ea96a01e9572490e9769bdf6b17548e0
+run_name: LinearRegression-EnergyPriceModel
+run_uuid: ea96a01e9572490e9769bdf6b17548e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749405986241
+status: 3
+tags: []
+user_id: STUDSENT
