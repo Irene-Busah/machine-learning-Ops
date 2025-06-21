@@ -180,3 +180,7 @@ cython_debug/
 02-experiment-tracking/homework/mlruns/
 
 machine-learning-Ops-main/
+02b-mlflow-experiment-tracking/mlruns/
+
+**/mlruns/
+**/mlartifacts/
