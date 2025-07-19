@@ -1,0 +1,6 @@
+project:
+    name: ml-with-airflow
+    webserver:
+        port: 8080
+    postgres:
+        port: 5433
