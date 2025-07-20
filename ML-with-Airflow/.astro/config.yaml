@@ -3,4 +3,4 @@ project:
     webserver:
         port: 8080
     postgres:
-        port: 5433
+        port: 5432

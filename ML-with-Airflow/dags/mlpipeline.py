@@ -20,4 +20,9 @@ with DAG(
     start_date=datetime(2025, 7, 19),
     schedule='@weekly',
 ) as dag:
-    preprocess = PythonOperator(task_id="")
+    preprocess = PythonOperator(task_id="preprocess_task", python_callable=preprocess_data)
+    train = PythonOperator(task_id="train_task", python_callable=train_model)
+    evaluate = PythonOperator(task_id="evaluate_task", python_callable=evaluate_model)
+
+    # setting the dependencies
+    preprocess >> train >> evaluate
