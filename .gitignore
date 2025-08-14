@@ -184,3 +184,5 @@ machine-learning-Ops-main/
 
 **/mlruns/
 **/mlartifacts/
+
+aws_sagemaker_MLOps/conda-venv
